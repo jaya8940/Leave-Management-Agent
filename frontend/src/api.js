@@ -3,7 +3,7 @@
  * All backend communication goes through these functions.
  */
 
-const API_BASE = 'http://localhost:5000/api';
+const API_URL = "https://your-backend-name.onrender.com";
 
 async function request(endpoint, options = {}) {
   const url = `${API_BASE}${endpoint}`;
